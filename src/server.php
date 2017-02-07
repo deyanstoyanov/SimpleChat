@@ -25,7 +25,7 @@ while(1){
         die("Could not accept incoming connection.\n");
     }
 
-    echo socket_read($socket_resource, 1024);;
+    echo socket_read($socket_resource, 1024);
 
     socket_close($socket_resource);
 }
